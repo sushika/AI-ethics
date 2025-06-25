@@ -1,30 +1,43 @@
-# 🤖 AI for Recidivism and Judicial Outcomes  
+# 🤖 Ethical AI for Insurance Pricing 
 
-## 📌 Overview  
-This project explores the role of **Artificial Intelligence (AI) in recidivism prediction and judicial decision-making**, focusing on ethical implications, biases, and fairness in AI-driven sentencing models. The research discusses how machine learning models are used to assess the likelihood of reoffending and their impact on judicial outcomes, with a critical lens on algorithmic transparency, bias mitigation, and societal consequences.
+## 📌 Overview
+This project explores the ethical use of Artificial Intelligence (AI) in insurance pricing, simulating how an insurer might develop and deploy a machine learning model to estimate medical insurance costs. We then perform a mock audit of the model to evaluate fairness, transparency, and accountability, using tools like SHAP and LIME within Orange. The project draws on real-world policy frameworks such as New York City’s AEDT Law and Colorado’s AI Insurance Pricing Regulation, aligning with broader AI ethics principles including fairness, explainability, and non-discrimination.
 
-## 📂 Files in This Repository  
-- **📄 AI_Ethics_Paper.pdf** – The main essay discussing AI's role in judicial decisions, ethical concerns, and policy recommendations.  
-- **📊 DS_517_Judicial_Outcomes_Sushikha** – Supporting analysis, possibly containing research notes, data insights, or model evaluations.  
-- **📜 README.md** – Documentation providing an overview of the project.  
+## 📂 Files in This Repository
+📄 AI_Ethics_Insurance_Audit.pdf – The main paper detailing our modeling and audit workflow, ethical concerns, and policy context.
 
-## 🛠️ Key Topics Covered  
+🧠 IPM_best_model.pkl – The best-performing insurance pricing model trained using XGBoost and saved for auditing.
 
-### 🔍 AI in Recidivism Prediction  
-- How machine learning models like **COMPAS** are used to predict the likelihood of reoffending.  
-- The balance between public safety and ethical responsibility in automated judicial recommendations.  
+🔧 Orange_Workflows/ – Screenshots and files of Orange workflows for both model development and auditing phases.
 
-### ⚖️ Ethical & Legal Implications  
-- **Bias & Fairness** – Addressing racial, socioeconomic, and gender biases embedded in predictive models.  
-- **Transparency & Explainability** – The need for AI models in law to be interpretable and accountable.  
-- **Impact on Judicial Outcomes** – Examining cases where AI recommendations influenced sentencing decisions.  
+📜 README.md – Documentation and summary of the project. 
 
-### 🧩 AI Governance & Policy Recommendations  
-- The importance of human oversight in AI-assisted judicial processes.  
-- Strategies for mitigating bias and ensuring fairness in AI-driven legal decisions.  
-- Proposals for regulatory frameworks that balance innovation with ethical responsibility.  
+## 🛠️ Key Topics Covered
+###🏗️ AI in Insurance Pricing
+Building models using XGBoost, Random Forest, and Deep Neural Networks.
 
-## 💡 Why This Matters?  
-- AI in judicial systems raises concerns about **algorithmic fairness, human rights, and due process**.  
-- Ethical AI models can help ensure that **justice is served equitably and without bias**.  
-- Policymakers, legal experts, and technologists must collaborate to create **transparent and accountable AI systems** in law enforcement and sentencing.  
+Saving and deploying models with .pkl files for reuse and audit.
+
+Real-world simulation of an insurer’s modeling pipeline.
+
+###⚖️ Fairness, Bias & Transparency
+Fairness Auditing: Evaluating whether the model treats individuals equitably across attributes like gender, age, and health history.
+
+SHAP & LIME: Interpretable ML techniques to explain global and individual predictions.
+
+Dataset Bias Checks: Using visual tools in Orange for class imbalance and outlier detection.
+
+Fairness Widgets: Assessing disparate impact and equal opportunity across subgroups.
+
+###📋 AI Ethics & Regulatory Alignment
+Reflects AI ethics principles: transparency, fairness, accountability, and interpretability.
+
+Considers regulations like:
+
+New York AEDT Law – Emphasizing explainability and anti-discrimination in automated decision tools.
+
+Colorado AI Insurance Pricing Regulation – Governing the use of AI in pricing models to ensure compliance and equity.
+
+##💡 Why This Matters
+As AI becomes more embedded in financial services, it’s essential to evaluate models not just for accuracy, but for fairness and transparency. Our project shows how low-code tools like Orange can empower both developers and auditors to understand and govern AI responsibly. By simulating both model creation and ethical auditing, we contribute to the conversation on how AI can be deployed ethically and transparently in industries like insurance.
+
