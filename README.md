@@ -38,6 +38,6 @@ New York AEDT Law – Emphasizing explainability and anti-discrimination in auto
 
 Colorado AI Insurance Pricing Regulation – Governing the use of AI in pricing models to ensure compliance and equity.
 
-##💡 Why This Matters
+💡 Why This Matters
 As AI becomes more embedded in financial services, it’s essential to evaluate models not just for accuracy, but for fairness and transparency. Our project shows how low-code tools like Orange can empower both developers and auditors to understand and govern AI responsibly. By simulating both model creation and ethical auditing, we contribute to the conversation on how AI can be deployed ethically and transparently in industries like insurance.
 
