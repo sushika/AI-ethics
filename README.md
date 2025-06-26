@@ -12,15 +12,15 @@ This project explores the ethical use of Artificial Intelligence (AI) in insuran
 
 📜 README.md – Documentation and summary of the project. 
 
-## 🛠️ Key Topics Covered
-###🏗️ AI in Insurance Pricing
+🛠️ Key Topics Covered
+🏗️ AI in Insurance Pricing
 Building models using XGBoost, Random Forest, and Deep Neural Networks.
 
 Saving and deploying models with .pkl files for reuse and audit.
 
 Real-world simulation of an insurer’s modeling pipeline.
 
-###⚖️ Fairness, Bias & Transparency
+⚖️ Fairness, Bias & Transparency
 Fairness Auditing: Evaluating whether the model treats individuals equitably across attributes like gender, age, and health history.
 
 SHAP & LIME: Interpretable ML techniques to explain global and individual predictions.
@@ -29,7 +29,7 @@ Dataset Bias Checks: Using visual tools in Orange for class imbalance and outlie
 
 Fairness Widgets: Assessing disparate impact and equal opportunity across subgroups.
 
-###📋 AI Ethics & Regulatory Alignment
+📋 AI Ethics & Regulatory Alignment
 Reflects AI ethics principles: transparency, fairness, accountability, and interpretability.
 
 Considers regulations like:
